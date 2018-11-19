@@ -1,0 +1,81 @@
+body
+{
+	background-color: darkslategray;
+	font-family: Lato;
+}
+
+#loginForm
+{
+	padding-left: 38%;
+	padding-top: 5%;
+}
+
+label
+{
+	font-size: 18px;
+	color: white;
+}
+
+
+input[type=text] 
+{
+    /* padding: 12px 20px;
+    margin: 8px 0; */
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus 
+{
+    border: 3px solid #555;
+}
+
+input[type=password] 
+{
+    /* width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0; */
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=password]:focus 
+{
+    border: 3px solid #555;
+}
+
+
+input[type=submit] 
+{
+    /* width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0; */
+   background-color: #4CAF50; /* Green */
+   border: none;
+   color: white;
+   font-family: Lato;
+   padding: 2px 40px 2px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 10px 30px;
+   cursor: pointer;
+/*   border: 1px solid darkorange;
+   outline-offset: 2px;*/
+}
+
+#errorMessage
+{
+	padding-left: 170px;
+	padding-top: 30px;
+	color: red;	
+	font-size: 25px;
+	text-shadow: 50px;
+}

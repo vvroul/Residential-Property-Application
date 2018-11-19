@@ -1,0 +1,33 @@
+<taglib>
+   <tlib-version>1.0</tlib-version>
+   <jsp-version>2.0</jsp-version>
+   <short-name>Example TLD</short-name>
+   
+   <tag>
+      <name>Template</name>
+      <tag-class>other.Template_Tag</tag-class>
+      <body-content>empty</body-content>
+      
+      <attribute>
+         <name>user</name>
+         <type>entities.User</type>
+         <required>false</required>
+         <rtexprvalue>true</rtexprvalue>
+      </attribute>
+      
+      <attribute>
+         <name>login_err_message</name>
+         <type>String</type>
+         <required>false</required>
+         <rtexprvalue>true</rtexprvalue>
+      </attribute>
+      
+      <attribute>
+         <name>current_page</name>
+         <type>String</type>
+         <required>false</required>
+         <rtexprvalue>true</rtexprvalue>
+      </attribute>
+      
+   </tag>
+</taglib>

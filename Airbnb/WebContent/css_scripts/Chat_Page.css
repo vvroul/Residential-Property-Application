@@ -1,0 +1,891 @@
+body
+{
+	background-color:  #474e5d; 
+	font-family: Lato;
+}
+
+h1
+{
+	padding-left: 7%;
+    padding-top: 20px;
+	color : #01DFA5;
+    font-size: 50px;
+}
+
+p
+{
+	padding-left: 7%;
+	color: white;
+    font-size: 20px;
+}
+
+#getTickets
+{
+    padding-left: 5.5%;
+}
+
+#countText
+{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+#phrase
+{
+    font-size: 50px;
+}
+
+
+.conDate
+{
+	padding-left: 2em;
+	font-size: 30%;
+    color : #FFEFEB;
+}
+
+.underline
+{
+    
+}
+
+
+.con
+{
+    font-size: 65%;
+    border-bottom: 2px solid rgba(1,223,165, .8);
+    /*    -webkit-text-decoration-color: #01DFA5;
+    text-decoration-color: #01DFA5;*/
+}
+
+
+#media
+{
+	float: left;
+}
+
+a {text-decoration: none;} 
+
+ul 
+{
+    list-style-type: none;
+    margin-left: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+    /*background: #648880;
+    background: linear-gradient(to center, #f6f1d3, #648880, #293f50);*/
+}
+
+li 
+{
+    float: left;
+}
+
+li a, .dropbtn 
+{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Lato;
+}
+
+
+.tickets, li.tickets
+{
+	background-color: darkred;
+	background b;
+	padding: 0px;
+}
+
+
+li a:hover, .dropdown:hover .dropbtn 
+{
+	color: #1abc9c !important;
+    /*background-color: black;*/
+}
+
+li.dropdown 
+{
+    display: inline-block;
+}
+
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a 
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+
+
+.button 
+{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 25px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.ticketButton 
+{
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+
+.ticketButton:hover 
+{
+    background-color: darkred;
+    color: white;
+}
+
+
+#clockdiv
+{
+    font-family: Lato;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 39%;
+    padding-bottom: 20px;
+}
+
+#clockdiv > div
+{
+    padding: 10px;
+    border-radius: 3px;
+    background: #00BF96;
+    display: inline-block;
+}
+
+#clockdiv div > span
+{
+    padding: 15px;
+    border-radius: 3px;
+    background: #00816A;
+    display: inline-block;
+}
+
+.smalltext
+{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+
+
+.images 
+{
+    display: inline;
+    margin: 15px;
+    padding: 15px;
+    vertical-align:middle;
+    width: 150px;
+    height: 200px;
+    border: 5px solid darkorange;
+    background-color: #00816A;
+    
+}
+
+
+#content 
+{
+    display: block;
+    margin: 0px;
+    padding: 10px 0px 10px 100px;
+    position: relative;
+    height: auto;
+    max-width: auto;
+    overflow-y: hidden;
+    overflow-x:auto;
+    word-wrap:normal;
+    white-space:nowrap;
+}
+
+
+
+.tooltip
+{
+    display: inline;
+    position: inherit;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.tooltip:hover:after
+{
+    background: #333;
+    /*background: rgba(0,0,0,.8);*/
+    border-radius: 5px;
+    bottom: 130px;
+    color: #00BF96;
+    content: attr(title);
+    left: 10%;
+    padding: 5px 15px 5px;
+    position: absolute;
+    z-index: 98;
+    width: 150px;
+    text-align: center;
+}
+
+.tooltip:hover:before
+{
+    border: solid;
+    border-color: #333 transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 100px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+}
+
+
+
+#restSpeakersButton
+{
+    padding-left: 35%;
+}
+
+#lorem_ipsum
+{
+    width: 60%;
+    padding-left: 20%;
+    word-wrap: break-word;
+    font-family: Garamond;
+    font-size: 20px;
+}
+
+
+#manifestoButton
+{
+    padding-left: 40%;
+}
+
+
+#previousEventsButton
+{
+    padding-left: 39%;
+}
+
+
+#programInfo
+{
+    
+}
+
+
+
+.inline-div 
+{
+    text-align: center;
+    padding-left: 13%;
+    display:inline-block;
+    width: 15%;
+    word-wrap: break-word;
+}
+
+
+#programButton
+{
+}
+
+#mapInfo {
+    /*float: left;*/
+    /*padding-left: 0%;*/
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+#map {
+    display: block;
+    margin: auto;
+    height: 400px;
+    width: 50%;
+    float: right;
+    /*margin-bottom: 40px;*/
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%);
+ }
+
+ #clearfix {
+    overflow: auto;
+ }
+
+
+#Accomo
+{
+    font-size: 25px;
+    color: darkorange;
+}
+
+
+.ticketButton 
+{
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+
+.ticketButton:hover 
+{
+    background-color: darkred;
+    color: white;
+}
+
+
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+
+
+
+
+/* The Modal (background) */
+.modal 
+{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover, .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px)
+{
+    .modal-content 
+    {
+        width: 100%;
+    }
+}
+
+
+
+
+.loginButton 
+{
+    font-size: 20px; 
+    border: none; 
+    background: none; 
+    padding: 0; 
+    color:white;
+    font-family: Lato;
+}
+
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    margin-left: 7%;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+.wrapper 
+{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 5px;
+    background-color: #fff;
+    color: #444;
+    margin-right: 100%;
+    margin-left: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box 
+{
+    background-color: #444;
+    color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 5%;
+}
+
+
+/* nanana */
+
+.cd-filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 100%;
+  background: #ffffff;
+  box-shadow: 4px 4px 20px transparent;
+  z-index: 2;
+  /* Force Hardware Acceleration in WebKit */
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-transition: -webkit-transform 0.3s, box-shadow 0.3s;
+  -moz-transition: -moz-transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.cd-filter::before {
+  /* top colored bar */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #41307c;
+  z-index: 2;
+}
+.cd-filter form {
+  padding: 70px 20px;
+}
+.cd-filter .cd-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50px;
+  line-height: 50px;
+  width: 60px;
+  color: #ffffff;
+  font-size: 1.3rem;
+  text-align: center;
+  background: #37296a;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  z-index: 3;
+}
+.no-touch .cd-filter .cd-close:hover {
+  background: #32255f;
+}
+.cd-filter.filter-is-visible {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+}
+.cd-filter.filter-is-visible .cd-close {
+  opacity: 1;
+}
+@media only screen and (min-width: 1170px) {
+  .cd-filter {
+    width: 20%;
+  }
+  .cd-filter form {
+    padding: 70px 10%;
+  }
+}
+
+.cd-filter-trigger {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  line-height: 50px;
+  width: 60px;
+  /* image replacement */
+  overflow: hidden;
+  text-indent: 100%;
+  color: transparent;
+  white-space: nowrap;
+  background: transparent url("../img/cd-icon-filter.svg") no-repeat center center;
+  z-index: 3;
+}
+.cd-filter-trigger.filter-is-visible {
+  pointer-events: none;
+}
+@media only screen and (min-width: 1170px) {
+  .cd-filter-trigger {
+    width: auto;
+    left: 2%;
+    text-indent: 0;
+    color: #9a9a9a;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-left: 24px;
+    background-position: left center;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    transition: color 0.3s;
+  }
+  .no-touch .cd-filter-trigger:hover {
+    color: #41307c;
+  }
+  .cd-filter-trigger.filter-is-visible, .cd-filter-trigger.filter-is-visible:hover {
+    color: #ffffff;
+  }
+}
+
+/* -------------------------------- 
+
+xcustom form elements 
+
+-------------------------------- */
+.cd-filter-block {
+  margin-bottom: 1.6em;
+}
+.cd-filter-block h4 {
+  /* filter block title */
+  position: relative;
+  margin-bottom: .2em;
+  padding: 10px 0 10px 20px;
+  color: #9a9a9a;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.3rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+.no-touch .cd-filter-block h4:hover {
+  color: #41307c;
+}
+.cd-filter-block h4::before {
+  /* arrow */
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+  background: url("../img/cd-icon-arrow.svg") no-repeat center center;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  transition: transform 0.3s;
+}
+.cd-filter-block h4.closed::before {
+  -webkit-transform: translateY(-50%) rotate(-90deg);
+  -moz-transform: translateY(-50%) rotate(-90deg);
+  -ms-transform: translateY(-50%) rotate(-90deg);
+  -o-transform: translateY(-50%) rotate(-90deg);
+  transform: translateY(-50%) rotate(-90deg);
+}
+.cd-filter-block input, .cd-filter-block select,
+.cd-filter-block .radio-label::before,
+.cd-filter-block .checkbox-label::before {
+  /* shared style for input elements */
+  font-family: "Open Sans", sans-serif;
+  border-radius: 0;
+  background-color: #ffffff;
+  border: 2px solid #e6e6e6;
+}
+.cd-filter-block input[type='search'],
+.cd-filter-block input[type='text'],
+.cd-filter-block select {
+  width: 100%;
+  padding: .8em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  box-shadow: none;
+}
+.cd-filter-block input[type='search']:focus,
+.cd-filter-block input[type='text']:focus,
+.cd-filter-block select:focus {
+  outline: none;
+  background-color: #ffffff;
+  border-color: #41307c;
+}
+.cd-filter-block input[type='search'] {
+  /* custom style for the search element */
+  border-color: transparent;
+  background-color: #e6e6e6;
+  /* prevent jump - ios devices */
+  font-size: 1.6rem !important;
+}
+.cd-filter-block input[type='search']::-webkit-search-cancel-button {
+  display: none;
+}
+.cd-filter-block .cd-select {
+  /* select element wrapper */
+  position: relative;
+}
+.cd-filter-block .cd-select::after {
+  /* switcher arrow for select element */
+  content: '';
+  position: absolute;
+  z-index: 1;
+  right: 14px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url("../img/cd-icon-arrow.svg") no-repeat center center;
+  pointer-events: none;
+}
+.cd-filter-block select {
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+.cd-filter-block select::-ms-expand {
+  display: none;
+}
+.cd-filter-block .list li {
+  position: relative;
+  margin-bottom: .8em;
+}
+.cd-filter-block .list li:last-of-type {
+  margin-bottom: 0;
+}
+.cd-filter-block input[type=radio],
+.cd-filter-block input[type=checkbox] {
+  /* hide original check and radio buttons */
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  z-index: 2;
+}
+.cd-filter-block .checkbox-label,
+.cd-filter-block .radio-label {
+  padding-left: 24px;
+  font-size: 1.4rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.cd-filter-block .checkbox-label::before, .cd-filter-block .checkbox-label::after,
+.cd-filter-block .radio-label::before,
+.cd-filter-block .radio-label::after {
+  /* custom radio and check boxes */
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.cd-filter-block .checkbox-label::before,
+.cd-filter-block .radio-label::before {
+  width: 16px;
+  height: 16px;
+  left: 0;
+}
+.cd-filter-block .checkbox-label::after,
+.cd-filter-block .radio-label::after {
+  /* check mark - hidden */
+  display: none;
+}
+.cd-filter-block .checkbox-label::after {
+  /* check mark style for check boxes */
+  width: 16px;
+  height: 16px;
+  background: url("../img/cd-icon-check.svg") no-repeat center center;
+}
+.cd-filter-block .radio-label::before,
+.cd-filter-block .radio-label::after {
+  border-radius: 50%;
+}
+.cd-filter-block .radio-label::after {
+  /* check mark style for radio buttons */
+  width: 6px;
+  height: 6px;
+  background-color: #ffffff;
+  left: 5px;
+}
+.cd-filter-block input[type=radio]:checked + label::before,
+.cd-filter-block input[type=checkbox]:checked + label::before {
+  border-color: #41307c;
+  background-color: #41307c;
+}
+.cd-filter-block input[type=radio]:checked + label::after,
+.cd-filter-block input[type=checkbox]:checked + label::after {
+  display: block;
+}
+
+@-moz-document url-prefix() {
+  /* hide custom arrow on Firefox - select element */
+  .cd-filter-block .cd-select::after {
+    display: none;
+  }
+}
+
+
+  
+#wrapper, #loginform 
+{
+    margin:0 auto;
+    padding-bottom:25px;
+    background:#EBF4FB;
+    width:504px;
+    border:1px solid #ACD8F0; 
+}
+  
+#chatbox {
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    height:270px;
+    width:430px;
+    border:1px solid #ACD8F0;
+    overflow:auto; 
+}
+  
+#usermsg 
+{
+    width:395px;
+    margin-left : 25px;
+    border:1px solid #ACD8F0; 
+}
+  
+.error { color: #ff0000; }
+  
+#menu { padding:12.5px 25px 12.5px 25px; }
+  
+.welcome { float:left; margin-left:0px; color:black; }
+  
+.logout { float:right; }
+  
+.msgln { margin:0 0 2px 0; }
+
+#submitmsg { width: 60px; } 
